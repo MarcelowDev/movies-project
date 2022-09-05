@@ -7,7 +7,7 @@ const MOVIES = ['https://fondosmil.com/fondo/26473.jpg', 'https://img1.ak.crunch
 function App() {
   return (
     <div className="App">
-      <section className="text-center grid gap-2 grid-cols-4">
+      <section className="grid gap-2 grid-cols-4">
         <Card movies={MOVIES}/>
       </section>
       {/* <button onClick={() => setMovies(DIFFERENT_MOVIES)} className="bg-blue-400 border-2 border-red-300 text-center rounded-xl p-1 my-5">Cambiar peli</button> */}
